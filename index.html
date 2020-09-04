@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Tiết Nhật Hưng
+        </title>
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+            async defer>
+        </script>
+        <script type="text/javascript">
+            var onloadCallback = function() {
+            grecaptcha.render('recaptcha', {
+                'sitekey' : '6Ldkr8cZAAAAAEiney6ZSlxTK2blKK87ztdSinU0'
+            });
+        };
+        </script>
+
+    </head>
+    <body>
+        <div class="container">
+            <form action="#"></form>
+            <div class="header">
+                <div class="col-12">
+                    <h1> Contact form</h1>
+                </div>
+                <div class="col-12"><p>Please fill in your information and well be sending your order in no time</p></div>
+            </div>
+            <div class="body">
+                <div class="col-12">
+                    <div class="form-control">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <label>Your Name</label>
+                                </div>
+                                <div class="col-9">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <input type="text" placeholder="First Name">
+                                        </div>
+                                        <div class="col-6">
+                                            <input type="text" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form-control">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <label>Your Email</label>
+                                </div>
+                                <div class="col-9">
+                                    <input type="text" placeholder="hung@gmail.com">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <label>Phone<span>*</span></label>
+                                </div>
+                                <div class="col-3">
+                                    <input type="text" placeholder="###">
+                                </div>
+                                <div class="col-3">
+                                    <input type="text" placeholder="###">
+                                </div>
+                                <div class="col-3">
+                                    <input type="text" placeholder="####">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <label>Message Subjeact<span>*</span></label>
+                                </div>
+                                <div class="col-6">
+                                    <select>
+                                        <option value="">Other</option>
+                                    </select>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <label>Message<span>*</span></label>
+                                </div>
+                                <div class="col-9">
+                                    <textarea name="" id="" cols="30" rows="8"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <label>Verifivation<span>*</span></label>
+                                </div>
+                                <div class="col-7">
+                                    <div id="recaptcha"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="col-12">
+                    <button type="submit">
+                        Submit Form
+                    </button>
+                </div>
+            </div>
+        </form>
+        </div>
+    </body> 
+</html>
